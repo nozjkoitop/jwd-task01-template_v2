@@ -2,6 +2,7 @@ package com.epam.jwd.task2;
 
 public class Main {
     public static void main(String[] args) {
+
         Input input = new Input();
         Logic logic = new Logic();
         Output output = new Output();
@@ -17,7 +18,7 @@ public class Main {
 
         // 5 task
 
-        double[] fifthTaskResult = logic.nonNegativeSquaredNegativeToFourthPower(firstDoubleValue, secondDoubleValue, thirdDoubleValue);
+        double[] fifthTaskResult = logic.nonNegativeSquaredNegativeToFourthDegree(firstDoubleValue, secondDoubleValue, thirdDoubleValue);
         output.showArrayOfDoubleValues("Fifth task result -> ", fifthTaskResult);
 
         // 6 task

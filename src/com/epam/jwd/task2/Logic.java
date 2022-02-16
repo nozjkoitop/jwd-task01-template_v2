@@ -14,12 +14,12 @@ public class Logic {
         return (b + sqrt(pow(b, 2) + 4 * a * c)) / (2 * a) - pow(a, 3) * c + pow(b, -2);
     }
 
-    public double[] nonNegativeSquaredNegativeToFourthPower(double x, double y, double z) {
+    public double[] nonNegativeSquaredNegativeToFourthDegree(double x, double y, double z) {
         double[] arr = {x, y, z};
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] >= 0) {
                 arr[i] = pow(arr[i], 2);
-            } else if (arr[i] < 0) {
+            } else  {
                 arr[i] = pow(arr[i], 4);
             }
         }
